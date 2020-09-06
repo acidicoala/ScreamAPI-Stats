@@ -1,0 +1,18 @@
+h1 {
+	text-align: center;
+	margin-top: 1rem;
+	color: limegreen;
+}
+
+a {
+	color: white;
+}
+
+table {
+	width: 500px;
+	border-collapse: collapse;
+}
+
+tr.mat-footer-row{
+	border-top: 2px solid gray;
+}
