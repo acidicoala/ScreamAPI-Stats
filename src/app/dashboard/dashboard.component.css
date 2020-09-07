@@ -1,3 +1,4 @@
+
 h1 {
 	text-align: center;
 	margin-top: 1rem;
@@ -8,11 +9,30 @@ a {
 	color: white;
 }
 
-table {
-	width: 500px;
+.mat-table {
+	table-layout: fixed;
+	width: 100%;
 	border-collapse: collapse;
 }
 
-tr.mat-footer-row{
+
+@media screen and (min-width: 500px) {
+	.mat-table {
+		width: 500px;
+	}
+
+}
+
+.mat-column-title{
+	width: 55%;
+}
+
+
+.mat-column-version, .mat-column-download-count{
+	text-align: right;
+}
+
+
+tr.mat-footer-row {
 	border-top: 2px solid gray;
 }
