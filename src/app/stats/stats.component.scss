@@ -1,0 +1,30 @@
+.mat-table {
+	table-layout: fixed;
+	width: 100%;
+	border-collapse: collapse;
+
+
+	.mat-column-title {
+		width: 55%;
+	}
+
+	.mat-column-version, .mat-column-download-count {
+		text-align: right;
+	}
+
+	a {
+		color: white;
+	}
+
+	tr.mat-footer-row {
+		border-top: 2px solid gray;
+	}
+
+}
+
+
+@media screen and (min-width: 500px) {
+	.mat-table {
+		width: 500px;
+	}
+}

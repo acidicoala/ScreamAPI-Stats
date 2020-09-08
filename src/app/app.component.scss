@@ -1,0 +1,37 @@
+.app-component {
+	display: flex;
+	flex-direction: column;
+
+	h1 {
+		font-family: Montserrat, Roboto, serif;
+		color: limegreen;
+		text-align: center;
+		padding-top: 1em;
+	}
+
+	app-stats {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.github-footer {
+		padding-bottom: 1rem;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		flex: 1;
+
+
+		a {
+			color: white;
+			font-family: Montserrat, Lato, Roboto, serif;
+			display: flex;
+			align-items: center;
+
+			img {
+				width: 64px;
+			}
+		}
+	}
+}

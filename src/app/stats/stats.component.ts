@@ -3,11 +3,11 @@ import {Release} from '../interfaces/release';
 import {GithubService} from '../github.service';
 
 @Component({
-    selector: 'app-dashboard',
-    templateUrl: './dashboard.component.html',
-    styleUrls: ['./dashboard.component.css'],
+    selector: 'app-stats',
+    templateUrl: './stats.component.html',
+    styleUrls: ['./stats.component.scss'],
 })
-export class DashboardComponent implements AfterViewInit {
+export class StatsComponent implements AfterViewInit {
     releases: Release[];
     displayedColumns: string[] = ['title', 'version', 'download-count'];
 
