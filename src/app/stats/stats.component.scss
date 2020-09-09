@@ -3,6 +3,14 @@
 	width: 100%;
 	border-collapse: collapse;
 
+	.mat-header-row{
+		font-weight: bold;
+		font-family: Montserrat, Roboto, serif;
+	}
+
+	.mat-row, .mat-footer-row{
+		font-family: Lato, Roboto, serif;
+	}
 
 	.mat-column-title {
 		width: 55%;
@@ -10,6 +18,12 @@
 
 	.mat-column-version, .mat-column-download-count {
 		text-align: right;
+	}
+	.mat-column-version {
+		padding-right: 4px;
+	}
+	.mat-column-download-count {
+		padding-left: 4px;
 	}
 
 	a {

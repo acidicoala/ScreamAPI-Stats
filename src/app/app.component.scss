@@ -7,6 +7,7 @@
 		color: limegreen;
 		text-align: center;
 		padding-top: 1em;
+		text-shadow: 3px 3px 3px darkgreen;
 	}
 
 	app-stats {
@@ -25,9 +26,11 @@
 
 		a {
 			color: white;
-			font-family: Montserrat, Lato, Roboto, serif;
 			display: flex;
 			align-items: center;
+			font-family: Montserrat, Lato, Roboto, serif;
+			font-weight: normal;
+			text-shadow: 2px 2px 2px gray;
 
 			img {
 				width: 64px;
