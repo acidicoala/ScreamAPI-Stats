@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@use "sass:map";
+@import '~@angular/material/theming';
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body{
+	background-color: map.get($mat-dark-theme-background, "background");
+}
